@@ -13,6 +13,6 @@ provider "azurerm" {
 
 # Simple resource (DO NOT APPLY)
 resource "azurerm_resource_group" "demo" {
-  name     = "rg-ci-demo-practice"
+  name     = "rg-ci-demo-practice-v2"
   location = "East US"
 }
